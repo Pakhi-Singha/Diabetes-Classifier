@@ -22,7 +22,7 @@ file_path = '/content/Diabetes Classification.csv'  # Update if needed
 df = pd.read_csv(file_path)
 
 ## Step 4: Data Preprocessing
-# Drop unnecessary column if exists
+# Drop unnecessary column if it exists
 df.drop(columns=['Unnamed: 0'], errors='ignore', inplace=True)
 
 # Encode categorical column (Gender)
